@@ -1,0 +1,23 @@
+    Goat Feeds and Medicines Screen:
+
+To create a screen for goat feeds and medicines, we can use the ListView widget to display a list of all the feeds and medicines for each goat. We can use a database or a file system to store this information. We can also allow users to add new feeds and medicines to the list. lets add educational section where we give the user information about feeds and medicine
+
+    Pregnancy/Insemination Screen:
+
+Here's an outline of what we can include on the Pregnancy/Insemination screen:
+
+    Add a button on the Dashboard screen to navigate to the Pregnancy/Insemination screen.
+    On the Pregnancy/Insemination screen, allow the user to add a new pregnancy/insemination record.
+    The following information should be captured for each pregnancy/insemination record:
+        Goat (selected from a dropdown menu)
+        Date of insemination/pregnancy
+        Expected due date
+        Pregnancy status (open, confirmed, lost)
+        Any notes or comments about the pregnancy/insemination
+    Display a list of all the pregnancy/insemination records on the screen, sorted by due date.
+    Each item in the list should display the goat's name, date of insemination/pregnancy, expected due date, pregnancy status, and any notes or comments.
+    Provide an option to edit a pregnancy/insemination record or delete a record.
+
+    Export Data Screen:
+
+To allow users to export farm information to a PDF or spreadsheet, we can use the pdf package or the csv package to generate the respective file formats. We can also use the file_picker package to allow users to choose the location to save the file.
